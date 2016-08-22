@@ -6,15 +6,19 @@ import tools.mypdfminer
 class Extracter(object):
 
     def __init__(self):
+
         return None
 
     def applyOCR(self):
+
         return None
 
     def html(self, *args):
+
         return tools.mypdfminer.toHtml(*args)
 
     def txt(self):
+
         return None
 
     def tabula(self, infile, outfile, **kwargs):
@@ -38,4 +42,5 @@ class Extracter(object):
         return subprocess.call(command)
 
     def rotate(self):
+        
         return None
